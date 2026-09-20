@@ -7,6 +7,7 @@
 
 body {
     background-color: #4CAF50CC;
+    overflow-y: scroll;
 }
 
 img {
@@ -69,6 +70,14 @@ nav div a {
 
 }
 
+.Anchor1 {
+    text-decoration: none;
+    color: black;
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-stretch: 100%;
+}
+
 #Button2 {
     display: inline-block;
     margin-left: 1500px;
@@ -78,8 +87,16 @@ nav div a {
     position: fixed;
     top: 80px;
     height: 40px;
-    /* margin-right: 20px; */
 }
+
+.Anchor2 {
+    text-decoration: none;
+    color: black;
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-stretch: 100%;
+}
+
 
 .flex-parent {
     /* border: 2px solid gold; */
