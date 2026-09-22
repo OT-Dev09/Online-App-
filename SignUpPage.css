@@ -4,22 +4,14 @@
     box-sizing: border-box;
 }
 
-/* body {
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 700;
+body {
     font-stretch: 100%;
     font-style: normal;
     background-color: black;
     overflow-y: scroll;
-} */
+}
 
 
-/* .flex-parent {
-    background-color: green;
-    margin: 40px 312.5px;
-    padding: 30px 70px;
-} */
 
 h1 {
     color: #266A37;
@@ -58,7 +50,7 @@ h2 {
 .flex-child1 input {
     width: 250px;
     height: 25px;
-    border:3px solid green;
+    border:2px solid green;
 }
 
 .flex-child2 {
@@ -67,7 +59,7 @@ h2 {
 .flex-child2 input {
     width: 250px;
     height: 25px;
-    border:3px solid green;
+    border:2px solid green;
 }
 
 .flex-child3 {
@@ -78,11 +70,13 @@ h2 {
     padding: 10px 10px;
 }
 
+
+
 #Select {
     width: 200px;
     border-radius: 3px;
     margin-top: 10px;
-    border:3px solid green;
+    border:2px solid green;
     height: 25px;
 }
 
@@ -92,7 +86,7 @@ h2 {
 .flex-child4 input {
     width: 250px;
     height: 25px;
-    border:3px solid green;
+    border:2px solid green;
 }
 
 .flex-child5 {
@@ -101,7 +95,7 @@ h2 {
 .flex-child5 input {
     width: 250px;
     height: 25px;
-    border:3px solid green;
+    border:2px solid green;
 }
 
 .flex-child6 h3 {
@@ -114,3 +108,43 @@ h2 {
     width: 30px;
 }
 
+.flex-child6 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: 100%;
+    margin: 5px 15px;
+}
+
+.Clickme {
+    border: 2px solid green;
+    border-radius: 20px;
+    margin: 25px 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Clickme a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: 100%;
+}
+
+hr {
+
+    border: 1px thin white;
+}
+
+footer {
+    color: white;
+    margin-top: 5px;
+    margin-left: 200px;
+    padding: 20px 20px;
+}
+footer p {
+    display: inline-block;
+    margin-left: 1000px;
+}
